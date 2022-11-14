@@ -1,0 +1,96 @@
+{
+    "categorys": [
+      {
+        "id": 1,
+        "title": "Обязательно для всех",
+        "description": "Документы, обязательные для всех сотрудников без исключения",
+        "status": [
+          "red",
+          "yellow",
+          "orange"
+        ],
+        "documents": [
+          {
+            "id": 1,
+            "listId": 1,
+            "title": "Паспорт",
+            "description": "Для всех",
+            "required": true,
+            "status": [
+              "blue"
+            ]
+          },
+          {
+            "id": 2,
+            "listId": 1,
+            "title": "ИНН",
+            "description": "Для всех",
+            "required": true,
+            "status": [
+  
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Обязательно для трудоустройства",
+        "description": "Документы, без которых невозможно трудоустройство человека на какую бы то ни было должность в компании вне зависимости от гражданства",
+        "status": [],
+        "documents": [
+          {
+            "id": 7,
+            "listId": 2,
+            "title": "Паспорт2",
+            "description": "Для всех",
+            "required": true,
+            "status": [
+              "blue"
+            ]
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Специальные",
+        "description": "Документы, без которых невозможно трудоустройство человека на какую бы то ни было должность в компании вне зависимости от гражданства",
+        "status": [],
+        "documents": [
+  
+        ]
+      }
+    ],
+    "uncategorized": [
+      {
+        "listId":0,
+        "id": 4,
+        "title": "Тестовое задание кандидата",
+        "description": "Россия, Белоруссия, Украина, администратор филиала, повар-сушист, повар-пиццмейкер, повар горячего цеха",
+        "required": false,
+        "status": [
+  
+        ]
+      },
+      {
+        "listId":0,
+        "id": 5,
+        "title": "Трудовой договор",
+        "description": null,
+        "required": false,
+        "status": [
+          "blue",
+          "grey"
+        ]
+      },
+      {
+        "listId":0,
+        "id": 6,
+        "title": "Мед. книжка",
+        "description": null,
+        "required": false,
+        "status": [
+  
+        ]
+      }
+    ]
+  }
